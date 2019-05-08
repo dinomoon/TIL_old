@@ -1,0 +1,9 @@
+C:\Users\mungyeung\Desktop\dev\���α׷��־��2\major_c_second_semester\�⸻3����11.14\����ƽ.cpp: In constructor 'Bank::Bank(char*, char*, int)':
+C:\Users\mungyeung\Desktop\dev\���α׷��־��2\major_c_second_semester\�⸻3����11.14\����ƽ.cpp:18:20: error: 'strcpy' was not declared in this scope
+   { strcpy(name, pn);
+                    ^
+C:\Users\mungyeung\Desktop\dev\���α׷��־��2\major_c_second_semester\�⸻3����11.14\����ƽ.cpp: In function 'int main()':
+C:\Users\mungyeung\Desktop\dev\���α׷��־��2\major_c_second_semester\�⸻3����11.14\����ƽ.cpp:36:33: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   Bank hong("Hong", "1234", 1000);
+                                 ^
+C:\Users\mungyeung\Desktop\dev\���α׷��־��2\major_c_second_semester\�⸻3����11.14\����ƽ.cpp:36:33: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
