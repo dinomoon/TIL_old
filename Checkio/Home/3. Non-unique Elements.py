@@ -1,0 +1,22 @@
+# 리스트가 주어지는데 ,, 원소가 한 개뿐이면 그 원소는 지워서 돌려주는 함수..
+
+# 내 풀이
+def checkio(x):
+    result = []
+    for i in range(len(x)):
+        if x.count(x[i]) != 1:
+            result.append(x[i])
+    return result
+
+print(checkio([1,2,2,2]))
+
+# 사람들 풀이
+def checkio(x):
+    return [i for i in x if x.count(i)>1]
+
+if __name__ == "__main__":
+    assert isinstance(checkio([1]), list), "The result must be a list"
+    assert checkio([1, 2, 3, 1, 3]) == [1, 3, 1, 3], "1st example"
+    assert checkio([1, 2, 3, 4, 5]) == [], "2nd example"
+    assert checkio([5, 5, 5, 5, 5]) == [5, 5, 5, 5, 5], "3rd example"
+    assert checkio([10, 9, 10, 10, 9, 8]) == [10, 9, 10, 10, 9], "4th example"

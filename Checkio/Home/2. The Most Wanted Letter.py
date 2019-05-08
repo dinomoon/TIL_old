@@ -1,0 +1,34 @@
+# 가장 개수가 많은 문자찾기
+# 1. 소문자로 출력
+# 2. 같은 개수라면 알파벳순서가 더 빠른 것을 출력
+# 3. 특수문자, 공백, 숫자는 제외
+# example)
+# checkio("Hello World!") == "l"
+# checkio("How do you do?") == "o"
+# checkio("One") == "e"
+# checkio("Oops!") == "o"
+# checkio("AAaooo!!!!") == "a"
+# checkio("abe") == "a"
+
+def checkio(string):
+    sample1 = string.lower()
+    sample2 = sample1.replace(" ","")
+    result = []
+    max_char = ''
+    max_count = 0
+    for char in sample2:
+        if char.isalpha():
+            count = sample2.count(char)
+            if count > max_count:
+                max_count = count
+                max_char = char
+    result.append(max_char)
+
+    for char in sample2:
+        if char.isalpha():
+            count = sample2.count(char)
+            if count == max_count and char != max_char:
+                result.append(char)
+    return min(result)
+
+print(checkio("Hello world!"))
