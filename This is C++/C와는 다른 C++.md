@@ -116,7 +116,7 @@ int &&rData = 3;
 
 범위 기반 for문
 
-```
+```c
 #include <iostream>
 using namespace std;
 int main(void)
