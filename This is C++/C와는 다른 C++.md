@@ -117,10 +117,17 @@ int &&rData = 3;
 범위 기반 for문
 
 ```
-int aList[5] = {40, 30, 20, 10, 50};
+#include <iostream>
+using namespace std;
+int main(void)
+{
+  int aList[5] = {40, 30, 20, 10, 50};
 
-for (int i=0; i<5; i++)
-  printf("%d ", aList[i]);
-  
-for (auto n : aList)  // 알아서 모든 내용을 출력해준다. 배열의 크기가 달라져도 신경쓰지 않아도 된다. +배열의 형식에 따라 n의 형식이 결정된다.
-  printf("%d ", n);  
+  for (int i=0; i<5; i++)
+    printf("%d ", aList[i]);
+
+  for (auto n : aList)  // 알아서 모든 내용을 출력해준다. 배열의 크기가 달라져도 신경쓰지 않아도 된다. +배열의 형식에 따라 n의 형식이 결정된다.
+    printf("%d ", n);
+  return 0;
+}
+
