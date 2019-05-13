@@ -82,4 +82,17 @@ int *pnNewData = new int[5];
 delete [] pnNewData;
 ```
 
-** 참조자 형식
+**참조자 형식**
+```
+int nData(10);
+cout << nData << endl; // 10출력
+//참조자는 '별명'이다.
+int &rData = nData;
+
+rData = 5;
+cout << nData << endl; // 5출력
+//nData의 주소와 rData의 주소가 같다.
+cout << &nData << endl; 
+cout << &rData << endl;
+```
+
