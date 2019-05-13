@@ -38,3 +38,7 @@ anywhere on the Work buffer.
 > /on   (**on찾기**) + 단어 속에 on이 있는 것도 찾음
 
 > /|<on|>   (**on만 찾아줌**)
+
+> :s/for/to    (**처음 찾은 for를 to로 바꿔줌**)
+
+> :1, & s/for/to/   (**모든 줄에서 처음 찾은 for를 to로 바꿔줌**)
