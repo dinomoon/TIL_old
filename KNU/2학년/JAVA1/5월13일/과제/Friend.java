@@ -10,7 +10,6 @@ class FriendInfo
 	// 생성자1
 	public FriendInfo(String name, String phoneNum, String birth)
 	{	
-		// 채워 넣으시오.
 		this.name = name;
 		this.phoneNum = phoneNum;
 		this.birth = birth;
@@ -19,7 +18,6 @@ class FriendInfo
 	// 생성자2
 	public FriendInfo(String name, String phoneNum)
 	{
-		// 채워 넣으시오.
 		this(name, phoneNum, null);
 	}
 
@@ -69,8 +67,8 @@ class FriendManager
 		System.out.println("\n");
 		System.out.println("메뉴를 선택하세요.");
 		System.out.println("1. 고등학교 친구 저장하기");
-        System.out.println("2. 대학교 친구 저장하기");
-        System.out.println("3. 검색하기");
+        	System.out.println("2. 대학교 친구 저장하기");
+        	System.out.println("3. 검색하기");
 		System.out.println("4. 삭제하기");
 		System.out.println("5. 모든 정보 출력");
 		System.out.println("6. 사용종료");
@@ -90,9 +88,9 @@ class FriendManager
 		String phoneNum = scanner.nextLine();
 
 		System.out.print("생년월일을 입력해주세요(생략가능): ");
-        String birth = scanner.nextLine();
+        	String birth = scanner.nextLine();
         
-        System.out.print("별명을 입력해주세요: ");
+        	System.out.print("별명을 입력해주세요: ");
 		String nickname = scanner.nextLine();
 
 		Data[cnt] = new HighFriend(name, phoneNum, birth, nickname);
@@ -115,9 +113,9 @@ class FriendManager
 		String phoneNum = scanner.nextLine();
 
 		System.out.print("생년월일을 입력해주세요(생략가능): ");
-        String birth = scanner.nextLine();
+        	String birth = scanner.nextLine();
         
-        System.out.print("전공을 입력해주새요: ");
+        	System.out.print("전공을 입력해주새요: ");
 		String major = scanner.nextLine();
 
 		Data[cnt] = new UnivFriend(name, phoneNum, birth, major);
@@ -203,10 +201,10 @@ class Friend
 			{
 				case 1:
 					manager.inputHighData();
-                    break;
-                case 2:
+                    			break;
+                		case 2:
 					manager.inputUnivData();
-                    break;
+                    			break;
 				case 3:
 					manager.searchData();
 					break;
