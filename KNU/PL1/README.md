@@ -1,1 +1,1 @@
-# major_c_second_semester
+# 1학년 major_c_second_semester
