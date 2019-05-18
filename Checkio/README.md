@@ -1,2 +1,2 @@
 # Checkio
-> Checkio 문제 푼 
+> Checkio 문제 푼 것들
