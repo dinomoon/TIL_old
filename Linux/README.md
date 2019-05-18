@@ -1,1 +1,2 @@
-# THIS IS README FILE
+# Linux
+> 리눅스 정리..
