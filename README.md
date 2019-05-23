@@ -27,6 +27,11 @@ $ git clone https://github.com/dinomoon/TIL.git
 
 #### 5. 수정 or 추가하기
 
+#### +폴더 삭제하는법
+```
+git rm -r folder-name
+```
+
 #### 6. $ git add .
 
 #### 7. $ git status
