@@ -4,6 +4,8 @@
 # 나를 위한...
 
 ### [Git 사용법](https://rogerdudler.github.io/git-guide/index.ko.html)
+### [Git 사용법2](https://github.com/KennethanCeyer/tutorial-git)
+
 #### 1. git config(계정에 대한 정보 설정)
 
 ```
