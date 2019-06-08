@@ -9,8 +9,8 @@
 #### 1. git config(계정에 대한 정보 설정)
 
 ```
-$ git config -global user.name "dinomoon"
-$ git config -global user.email "ansrud45@gmail.com"
+$ git config --global user.name "dinomoon"
+$ git config --global user.email "ansrud45@gmail.com"
 ```
 
 #### 2. git init
@@ -29,7 +29,7 @@ $ git clone https://github.com/dinomoon/TIL.git
 
 #### +폴더 삭제하는법
 ```
-git rm -r folder-name
+$ git rm -r folder-name
 ```
 
 #### 6. $ git add .
