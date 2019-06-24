@@ -10,12 +10,12 @@
 
 ```python
 N = int(input())
-// 여러개 입력받아 리스트로 저장
+# 여러개 입력받아 리스트로 저장
 L = list(map(int, input().split()))
 
 L.sort()
 sum = 0
-// 하나의 행이 늘어날 수록 더하는 값도 하나씩 늘어나서 이중for문을 떠올림.
+# 하나의 행이 늘어날 수록 더하는 값도 하나씩 늘어나서 이중for문을 떠올림.
 for i in range(N):
   for j in range(i+1):
     sum += L[j]
