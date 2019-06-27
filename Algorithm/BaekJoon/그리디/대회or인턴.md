@@ -16,6 +16,24 @@
 만들 수 있는 팀의 최댓값을 출력하면 된다.
 
 ## 코드
+> 2019년 6월 27일 오후5시 평교(모르겠어서 블로그 퍼옴)
 ```python
-# 푸는중...
+import sys
+
+N, M, K = map(int, sys.stdin.readline().split())
+
+res = 0
+
+while K > 0:
+    if N // 2 >= M:
+        N -= 1
+    else:
+        M -= 1
+    K -= 1
+
+if N // 2 <= M:
+    res = N // 2
+else:
+    res = M
+print(res)
 ```
