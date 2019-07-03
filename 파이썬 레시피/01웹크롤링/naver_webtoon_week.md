@@ -28,3 +28,10 @@ for data1 in data_list:
 pprint(week_title_list)
 # week_title_list[0]은 월요일~
 ```
+
+## 하나의 리스트안에 모든 제목을 넣으려면?
+```python
+data_list = soup.findAll('a', {'class': 'title'})
+week_title_list = [t.text for t in data_list]
+pprint(week_title_list)
+```
