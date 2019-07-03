@@ -11,7 +11,7 @@ html = requests.get("https://search.naver.com/search.naver?sm=tab_hty.top&where=
 soup = bs(html.text, 'html.parser')
 # pprint(soup)
 
-# find메소드를 사용해서 원하는 영역을 
+# find메소드를 사용해서 원하는 영역을 가져옴
 data = soup.find('div', {'class': 'detail_box'}) # 영역 추출
 pprint(data.text)
 ```
