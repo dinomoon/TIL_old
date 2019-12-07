@@ -17,11 +17,18 @@
 
 ### 7. git push -u origin master
 
+
 ## 가지 뻗는 방법
+
 git branch login
+
 git checkout login
+
 git checkout master
+
 git merge login
+
+
 
 ### [코드스쿼드](https://codesquad.kr/)
 > 방학 때 여기서 배울까...
