@@ -4,6 +4,8 @@
 # git bash 사용법 
 https://www.youtube.com/watch?v=SWYqp7iY_Tc
 
+## repository 처음 만들었을 때
+
 ### 1. git init
 
 ### 2. git config --global user.name 'user.name' / git config --global user.email 'user.email'
@@ -18,6 +20,13 @@ https://www.youtube.com/watch?v=SWYqp7iY_Tc
 
 ### 7. git push -u origin master
 
+## 내용을 변경했을 때
+
+### 1. git add .
+
+### 2. git commit -m 'comment'
+
+### 3. git push
 
 ## 가지 뻗는 방법
 
