@@ -1,8 +1,8 @@
 ﻿# TIL
->Today I Learned
+>Today I Learned<br>
 
 # git bash 사용법 
-https://www.youtube.com/watch?v=SWYqp7iY_Tc
+https://www.youtube.com/watch?v=SWYqp7iY_Tc<br>
 
 ## repository 처음 만들었을 때
 
@@ -18,7 +18,7 @@ https://www.youtube.com/watch?v=SWYqp7iY_Tc
 
 ### 6. git remote add origin '주소'
 
-### 7. git push -u origin master
+### 7. git push -u origin master<br>
 
 ## 내용을 변경했을 때
 
@@ -26,7 +26,7 @@ https://www.youtube.com/watch?v=SWYqp7iY_Tc
 
 ### 2. git commit -m 'comment'
 
-### 3. git push
+### 3. git push<br>
 
 ## 가지 뻗는 방법
 
