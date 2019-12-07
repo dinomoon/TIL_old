@@ -20,13 +20,13 @@
 
 ## 가지 뻗는 방법
 
-git branch login
+git branch login(login branch 생성)
 
-git checkout login
+git checkout login(login 페이지 제작)
 
-git checkout master
+git checkout master(master로 돌아옴)
 
-git merge login
+git merge login(합침)
 
 
 
