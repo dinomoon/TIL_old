@@ -1,42 +1,27 @@
 ﻿# TIL
 >Today I Learned
 
-# 나를 위한...
+# git bash 사용법
 
-### [Git 사용법](https://rogerdudler.github.io/git-guide/index.ko.html)
-### [Git 사용법2](https://github.com/KennethanCeyer/tutorial-git)
+### 1. git init
 
-#### 1. git config(계정에 대한 정보 설정)
+### 2. git config --global user.name 'user.name' / git config --global user.email 'user.email'
 
-```
-$ git config --global user.name "dinomoon"
-$ git config --global user.email "ansrud45@gmail.com"
-```
+### 3. git add . / git add *.html
 
-#### 2. git init
+### 4. git status
 
-#### 3. git remote
-```
-$ git remote add origin https://github.com/dinomoon/TIL.git
-```
+### 5. git commit -m '변경 내용'
 
-#### 4. git clone(복사해서 가져오기)
-```
-$ git clone https://github.com/dinomoon/TIL.git
-```
+### 6. git remote add origin '주소'
 
-#### 5. 수정 or 추가하기
+### 7. git push -u origin master
 
-#### +폴더 삭제하는법
-```
-$ git rm -r folder-name
-```
-
-#### 6. $ git add .
-
-#### 7. $ git status
-
-#### 8. $ git commit -m "변경내용"
+## 가지 뻗는 방법
+git branch login
+git checkout login
+git checkout master
+git merge login
 
 ### [코드스쿼드](https://codesquad.kr/)
 > 방학 때 여기서 배울까...
