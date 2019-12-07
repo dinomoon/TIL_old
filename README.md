@@ -5,8 +5,8 @@
 
 
 # git bash 사용법 
-https://www.youtube.com/watch?v=SWYqp7iY_Tc<br>
-
+https://www.youtube.com/watch?v=SWYqp7iY_T
+#
 ## repository 처음 만들었을 때
 
 ### 1. git init
@@ -21,7 +21,8 @@ https://www.youtube.com/watch?v=SWYqp7iY_Tc<br>
 
 ### 6. git remote add origin '주소'
 
-### 7. git push -u origin master<br>
+### 7. git push -u origin master
+#
 
 ## 내용을 변경했을 때
 
@@ -31,6 +32,7 @@ https://www.youtube.com/watch?v=SWYqp7iY_Tc<br>
 
 ### 3. git push<br>
 
+#
 ## 가지 뻗는 방법
 
 git branch login(login branch 생성)
