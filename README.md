@@ -1,7 +1,8 @@
 ﻿# TIL
 >Today I Learned
 
-# git bash 사용법 https://www.youtube.com/watch?v=SWYqp7iY_Tc
+# git bash 사용법 
+https://www.youtube.com/watch?v=SWYqp7iY_Tc
 
 ### 1. git init
 
